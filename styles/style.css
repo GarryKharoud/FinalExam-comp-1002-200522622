@@ -1,0 +1,140 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+
+#main-nav ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20em;
+    padding-right: 20em;
+    
+}
+#main-nav ul>li>a{
+    text-decoration: none;
+    font-size: 14pt;
+    color: aliceblue;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#main-nav{
+    background-color: rgb(49, 48, 48);
+
+}
+
+#main-nav ul>li>a:hover
+{
+    background-color: rgb(233, 233, 233);
+    color: rgb(49, 48, 48);
+    transition: 0.3s;;
+}
+
+
+/* HEADER */
+
+#main-header
+{
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    font-size: 24pt;
+    font-weight: 200;
+    color: aliceblue;
+    text-align: center;
+    padding: 2em;
+}
+
+/* MAIN CONTENT */
+#main-content figure
+{
+    width: 200pt;
+    float: left;
+    margin-right: 1em;
+}
+#main-content 
+{
+    padding-top: 2em;
+    display: flex;
+    
+}
+
+#citing
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#citing:hover{
+    color: rgb(133, 131, 235);
+    transition: 0.3s;;
+}
+
+/* ASIDE */
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 70%;
+}
+
+aside ul>li, #newwww 
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+aside> ul>li>strong
+{
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#turngrey, #newwww
+{
+    background-color: rgba(75, 77, 78, 0.473);
+}
+
+#newwww
+{
+    text-align: center;
+    font-size: 19pt;
+}
+
+/* FOOTER */
+#social-nav ul>li>a>img
+{
+    width: 50pt;
+}
+#social-nav ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30em;
+    gap: 1em;
+}
+#social-nav
+{
+    padding: 1em;
+
+}
+footer{
+    background-color: rgb(43, 38, 38);
+}
+
+footer>p
+{
+    text-align: center;
+    color: aliceblue;
+}

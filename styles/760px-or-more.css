@@ -1,0 +1,18 @@
+@media screen and (max-width: 760px)
+{
+    #main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #social-nav ul
+    {
+        padding: 0;
+    }
+    footer{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
