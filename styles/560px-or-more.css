@@ -4,6 +4,8 @@
         margin: 0;
         padding: 0;
         align-items: center;
+        margin-left: 1em;
+        margin-right: 1em;
     }
     #main-content
     {
@@ -27,5 +29,8 @@
     #main-content> main{
         margin-left: 3em;
         margin-right: 3em;
+    }
+    aside{
+        width: 100%;
     }
 }

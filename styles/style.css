@@ -73,7 +73,9 @@
     color: rgb(133, 131, 235);
     transition: 0.3s;;
 }
-
+main{
+    margin-right: 1em;
+}
 /* ASIDE */
 
 aside
@@ -85,7 +87,7 @@ aside
     width: 70%;
 }
 
-aside ul>li, #newwww 
+aside ul>li, aside>h2
 {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -100,12 +102,16 @@ aside> ul>li>strong
     text-transform: uppercase;
 }
 
-#turngrey, #newwww
+aside li:nth-of-type(odd)
+{
+    background-color: #fff;
+}
+
+aside li:nth-of-type(even), aside>h2
 {
     background-color: rgba(75, 77, 78, 0.473);
 }
-
-#newwww
+aside>h2
 {
     text-align: center;
     font-size: 19pt;
